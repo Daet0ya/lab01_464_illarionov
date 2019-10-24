@@ -10,7 +10,11 @@
       <placeholder/>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkLabel">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">label</property>
+      </object>
     </child>
   </object>
 </interface>
